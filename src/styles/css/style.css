@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  padding: 5px 15px;
+  margin: 12px 0;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+button,
+.form__submit-button {
+  background-color: rgb(216, 216, 216);
+  cursor: pointer;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: normal;
+}
+
+.mystore-app__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mystore-app__form h1,
+.mystore-app__form span {
+  font-weight: normal;
+}
+
+.mystore-app__form form {
+  margin: 30px 0;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.mystore-app__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 4px 50px;
+  border-bottom: 1px solid black;
+}
+
+.mystore-app__header h1 {
+  margin: 8px 0;
+}
+
+.mystore-app__header div {
+  text-align: right;
+  flex: 1;
+}
+
+.mystore-app__header span {
+  cursor: pointer;
+}
+
+.products-list {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 50px;
+  margin-bottom: 48px;
+}
+
+.products-list__empty-message {
+  text-align: center;
+}
+
+.product-item {
+  position: relative;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item__action {
+  padding: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.product-item__image {
+  height: 100%;
+}
+
+.product-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-item__action figure {
+  cursor: pointer;
+}
+
+.product-item__action > figure img {
+  height: 20px;
+}
+
+.product-item__content {
+  border-top: 1px solid black;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item__name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+.product-item__price {
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.mystore-app__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding: 16px 50px;
+  border-top: 1px solid black;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  .products-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .products-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
