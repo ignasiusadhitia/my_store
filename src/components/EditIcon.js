@@ -1,5 +1,5 @@
 import React from "react";
-import PenIcon from "../styles/images/pen-to-square-solid.svg";
+import PenIcon from "../assets/images/pen-to-square-solid.svg";
 
 function EditIcon({ id, onEdit }) {
   return (

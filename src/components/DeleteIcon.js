@@ -1,5 +1,5 @@
 import React from "react";
-import TrashIcon from "../styles/images/trash-can-solid.svg";
+import TrashIcon from "../assets/images/trash-can-solid.svg";
 
 function DeleteIcon({ id, onDelete }) {
   return (
