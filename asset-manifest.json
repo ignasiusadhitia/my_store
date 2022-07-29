@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my_store/static/css/main.bfc79cc2.css",
+    "main.js": "/my_store/static/js/main.2ce57bd2.js",
+    "static/media/trash-can-solid.svg": "/my_store/static/media/trash-can-solid.66c3f25b888bf5f88a0f5788b021f366.svg",
+    "static/media/pen-to-square-solid.svg": "/my_store/static/media/pen-to-square-solid.7a61ab7598a4c418d4f26fc78f1162d5.svg",
+    "index.html": "/my_store/index.html",
+    "main.bfc79cc2.css.map": "/my_store/static/css/main.bfc79cc2.css.map",
+    "main.2ce57bd2.js.map": "/my_store/static/js/main.2ce57bd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfc79cc2.css",
+    "static/js/main.2ce57bd2.js"
+  ]
+}
