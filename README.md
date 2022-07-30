@@ -71,7 +71,6 @@ My store is a minimalist bike store online catalog. There are several features o
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- PROJECT BUILT WITH -->
 ### Built With
 
 This My Store project was built with [React.js](https://reactjs.org/).
