@@ -62,8 +62,8 @@ My store is a minimalist bike store online catalog. There are several features o
   email: bot@example.com
   password: bot
   ```
-- **Dashboard**: The main page displayed products list.
-- **Delete Product**: Delete product in the products list.
+- **Dashboard**: The main page of the app display products list.
+- **Delete Product**: functionality to delete product in the products list.
 
 
 
